@@ -1,12 +1,6 @@
 # python_module_42
 learning python
 
-## Docker
-- docker build -t docker_for_python .
-- docker run -it -v "$(pwd):/workspace" docker_for_python
-- connect using vs code
-- exit
-- docker rm $(docker ps -aq)
-- docker rmi $(docker images -aq)
+- Python for Data Science
+- Piscine_42_Python_-_ML
 
-# Module 00
