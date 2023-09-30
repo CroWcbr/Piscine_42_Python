@@ -2,5 +2,6 @@
 learning python
 
 - Python for Data Science
-- Piscine_42_Python_-_ML
+- Python-ML
+
 
