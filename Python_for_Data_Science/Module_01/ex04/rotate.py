@@ -39,6 +39,7 @@ def main():
         plt.figure()
         plt.imshow(animal, cmap="gray")  # without graphic interface don't show
         plt.savefig("zoom.jpeg")
+        plt.show()
         plt.close()
     except Exception as e:
         print(f"Error: {e}")

@@ -46,6 +46,7 @@ def ft_blue(image: np.ndarray) -> np.ndarray:
 
 def ft_grey(image: np.ndarray) -> np.ndarray:
     """This function transforms in a grey scale."""
-    grey_image = (image[:, :, 0] + image[:, :, 1] + image[:, :, 2]) // 3
+    grey_channel = (image[:, :, 0] / 3 + image[:, :, 1] / 3 + image[:, :, 2] / 3).astype(np.uint8)
+    grey_image = np.stack([grey_channel, grey_channel, grey_channel], axis=2)
     display(grey_image)
     return grey_image

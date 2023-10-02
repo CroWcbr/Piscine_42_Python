@@ -8,6 +8,9 @@ learning python
 ## Module
 - Module_0 - Starting
 - Module_1 - Array
+	- numpy
+	- pillow
+	- matplotlib
 - Module_2 - DataTable
 - Module_3 - OOP
 - Module_4 - Dod

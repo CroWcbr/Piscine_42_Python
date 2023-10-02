@@ -22,6 +22,7 @@ def main():
         plt.figure()
         plt.imshow(slice_animal)  # without graphical interface don't show
         plt.savefig("zoom.jpeg")
+        plt.show()
         plt.close()
     except Exception as e:
         print(f"Error: {e}")
