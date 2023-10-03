@@ -12,6 +12,8 @@ learning python
 	- pillow
 	- matplotlib
 - Module_2 - DataTable
+	- pandas
+	- matplotlib
 - Module_3 - OOP
 - Module_4 - Dod
 

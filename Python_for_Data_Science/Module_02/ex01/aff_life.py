@@ -18,9 +18,12 @@ def main():
         plt.title(f"{country_name} Life expectancy Projections")
         plt.grid(True)
         plt.savefig("test.png")
+        plt.show()
+        plt.close()
     except Exception as e:
         print('Error:', e)
         exit(1)
+
 
 if __name__ == "__main__":
     main()
