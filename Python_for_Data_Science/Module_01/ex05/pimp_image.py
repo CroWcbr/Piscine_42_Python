@@ -7,7 +7,9 @@ def display(image: np.ndarray):
     # print("The shape of image is: ", image.shape)
     plt.imshow(image)
     plt.axis('off')
+    plt.savefig("zoom.jpeg")
     plt.show()
+    plt.close()
 
 
 def ft_invert(image: np.ndarray) -> np.ndarray:
