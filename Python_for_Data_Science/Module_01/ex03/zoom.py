@@ -20,7 +20,7 @@ def main():
         print(slice_animal)
 
         plt.figure()
-        plt.imshow(slice_animal)  # without graphical interface don't show
+        plt.imshow(np.mean(slice_animal, -1), cmap="gray")
         plt.savefig("zoom.jpeg")
         plt.show()
         plt.close()
